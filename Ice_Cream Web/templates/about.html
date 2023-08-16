@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}ABOUT US{% endblock title %}
+
+{% block body %}
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("/static/img/BG.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0); 
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 40%; /* Updated top value */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .overlay h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  .overlay p {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+</style>
+
+<div class="overlay"> 
+  <h1 style="color:rgba(239, 91, 91, 1); font-family: 'Preahvihear', sans-serif;">Welcome to our Flavourful World</h1>
+  <p style="color:rgba(0,0,0,1);font-family: 'Dancing Script', cursive;"> We believe in turning moments into memories, 
+    one scoop at a time. Our passion for crafting exceptional 
+    ice cream experiences has driven us to create a wide range of delectable 
+    flavors that cater to every palate. Since our inception, we've been dedicated 
+    to bringing smiles and joy to all ice cream enthusiasts.</p>
+</div>
+
+{% endblock body %}

@@ -1,0 +1,153 @@
+{% extends 'base.html' %}
+
+{% block title %}HOME{% endblock title %}
+
+{% block body %}
+
+<div class="container-fluid px-0">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/static/img/1.jpeg" class="d-block w-100" alt="..">
+                <div class="carousel-caption d-non d-md-block">
+                    <h5 style="font-family: 'Bricolage Grotesque', sans-serif">Welcome to the best Ice Creams of the Town</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/img/5.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-non d-md-block">
+                    <h5 style="font-family: 'Bricolage Grotesque', sans-serif">Indulge in different Exotic flavours</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/static/img/6.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-non d-md-block">
+                    <h5 style="font-family: 'Bricolage Grotesque', sans-serif">Dive into the world of Ice Creams</h5>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="container my-5">
+    <h2 class="my-4 text-center">
+        Select from our range of Ice Creams
+    </h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <!-- Ice Cream Option 1 (Vanilla) -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div style="width: 440; overflow: hidden; height: 270">
+                    <img src="/static/img/vnila.jpg" alt="Your Image" width="440" height="270">
+                </div>
+                <div class="card-body">
+                    <h5 style="color:rgb(48, 158, 242)">Heavenly Vanilla</h5>
+                    <p style="font-family: 'Dancing Script', cursive;" class="card-text">Indulge in the timeless delight of our classic vanilla ice cream. The smooth and creamy taste is a perfect canvas for toppings or enjoyed on its own.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ice Cream Option 2 (Butterscotch) -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div style="width: 440; overflow: hidden; height: 270">
+                    <img src="/static/img/butter.jpg" alt="Your Image" width="440" height="270">
+                </div>
+                <div class="card-body">
+                  <h5 style="color:rgb(212, 180, 0)">Caramel Serenity</h5>
+                    <p style="font-family: 'Dancing Script', cursive;" class="card-text">Experience the rich and buttery flavors of our delectable butterscotch ice cream. Every spoonful is a blend of sweet and savory, making it a beloved choice.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ice Cream Option 3 (Hazelnut) -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div style="width: 440; overflow: hidden; height: 270">
+                    <img src="/static/img/hzlnut.jpg" alt="Your Image" width="440" height="270">
+                </div>
+                <div class="card-body">
+                  <h5 style="color:rgb(145, 107, 19)">Toasted Nut Cream</h5>
+                    <p style="font-family: 'Dancing Script', cursive;" class="card-text">Delight in the nutty and rich flavors of our hazelnut ice cream. Each bite is a combination of creamy ice cream and the distinct taste of roasted hazelnuts.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ice Cream Option 4 (Chocolate) -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div style="width: 440; overflow: hidden; height: 270">
+                    <img src="/static/img/ch.jpg" alt="Your Image" width="440" height="270">
+                </div>
+                <div class="card-body">
+                  <h5 style="color:rgb(153, 63, 8)">Dark Euphoria</h5>
+                    <p  style="font-family: 'Dancing Script', cursive;" class="card-text">Satisfy your cravings with the rich and creamy delight of our decadent chocolate ice cream. Each scoop is a journey into irresistible sweetness, making every moment a heavenly experience.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ice Cream Option 5 (Mango) -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div style="width: 440; overflow: hidden; height: 270">
+                    <img src="/static/img/mngo.jpg" alt="Your Image" width="440" height="270">
+                </div>
+                <div class="card-body">
+                  <h5 style="color:rgb(222, 200, 0)">Mango Ecstasy</h5>
+                    <p style="font-family: 'Dancing Script', cursive;" class="card-text">Experience the pure essence of summer with our luscious mango ice cream. Each bite is a tropical escape, bursting with the sweet and tangy goodness of ripe mangoes.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ice Cream Option 6 (Strawberry) -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div style="width: 440; overflow: hidden; height: 270px">
+                    <img src="/static/img/str.jpg" alt="Your Image" width="440" height="270">
+                </div>
+                <div class="card-body">
+                  <h5 style="color:rgb(247, 15, 15)">Pink Berry Swirl</h5>
+                    <p style="font-family: 'Dancing Script', cursive;" class="card-text">Embark on a journey of fruity delight with our exquisite strawberry ice cream. Every spoonful is a burst of juicy, ripe strawberries that dance on your taste buds.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+      
+{% endblock body %}
