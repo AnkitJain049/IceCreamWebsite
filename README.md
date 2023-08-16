@@ -12,11 +12,6 @@
 
 🍦 User-Friendly Ordering: Craving a scoop? My website lets users order their favorite flavors with ease, anytime, and from anywhere. It's all about making the ice cream experience convenient and joyful.
 
-I'm excited to share my passion for ice cream and technology with you. Visit www.MyIceCreamFaves.com to explore the world of frozen delights and experience the synergy of Python Django and Bootstrap.
-
-If you find the project as exciting as I do, don't hesitate to leave a like 👍 or share this post. Looking forward to connecting with fellow ice cream enthusiasts and tech aficionados!
-
-
 
 
 
